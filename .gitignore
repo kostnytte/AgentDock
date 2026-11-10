@@ -1,0 +1,35 @@
+# Generated apps, tests, compiler cache and releases
+/build/
+/build-next/
+/build-release/
+/dist/
+/releases/
+/backups/
+/private/
+/local/
+.stage.*/
+*.dSYM/
+*.xcuserstate
+xcuserdata/
+__pycache__/
+*.pyc
+.DS_Store
+.agentdock-update-*
+
+# Runtime metadata and private exports must never be committed
+board.json
+folders.json
+archive.json
+shortcuts.json
+*.bookmark
+*.log
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pfx
+*.key
+*.pem
+*.cer
+*.certSigningRequest
